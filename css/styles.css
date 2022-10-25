@@ -1,0 +1,197 @@
+:root {
+  --grey-color: #757575;
+  --gre-black-color: #212121;
+  --white-color: #ffffff;
+  --blue-color: #2196f3;
+  --dark-color: #2f303a;
+  --light-color: #f5f4fa;
+  --logo-s-color: #000000;
+  --footer-a-color: rgba(255, 255, 255, 0.6);
+  --primary-font-size: 14px;
+  --secondary-font-size: 16px;
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--grey-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+
+.logo {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo-style {
+  color: var(--blue-color);
+}
+/*  --------------------------------------------------------------*/
+.nav-items-list {
+  list-style: none;
+  text-decoration: none;
+}
+.nav-item > a {
+  text-decoration: none;
+  color: var(--gre-black-color);
+  font-weight: 500;
+}
+
+.con-nav-list > li > a {
+  text-decoration: none;
+}
+
+.con-nav-list {
+  text-decoration: none;
+  list-style: none;
+}
+
+.n-stu {
+  color: var(--blue-color);
+  text-decoration: none;
+}
+
+.c-m-t {
+  color: var(--gre-black-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--blue-color);
+}
+.c-m-t:hover,
+.c-m-t:focus {
+  color: var(--blue-color);
+}
+/*  --------------------------------------------------------------*/
+.bussines {
+  background-color: var(--dark-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.bussines-title {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.bussines-btn {
+  font-family: inherit;
+  color: var(--white-color);
+  background-color: var(--blue-color);
+  font-weight: 700;
+  font-size: var(--secondary-font-size);
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border-width: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+/*  --------------------------------------------------------------*/
+
+.points-h3 {
+  color: var(--gre-black-color);
+  font-weight: 700;
+  font-size: var(--primary-font-size);
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+.points-li {
+  font-size: var(--primary-font-size);
+  line-height: 1.7;
+  list-style: none;
+}
+
+/*  --------------------------------------------------------------*/
+.do-title {
+  color: var(--gre-black-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+}
+.do-li {
+  list-style: none;
+}
+
+/*  --------------------------------------------------------------*/
+.team-title {
+  color: var(--gre-black-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.team {
+  background-color: var(--light-color);
+}
+.team-li {
+  list-style: none;
+}
+.team-h3 {
+  color: var(--gre-black-color);
+  font-weight: 500;
+  font-size: var(--secondary-font-size);
+  line-height: 1.2;
+}
+.team-p {
+  font-size: var(--secondary-font-size);
+  line-height: 1.2;
+}
+
+/*  --------------------------------------------------------------*/
+.footer {
+  background-color: var(--dark-color);
+}
+.footer-logo {
+  color: var(--white-color);
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logo-stl2 {
+  color: var(--blue-color);
+}
+.address {
+  font-size: var(--primary-font-size);
+  line-height: 1.7;
+  font-style: normal;
+}
+.address .link {
+  color: var(--footer-a-color);
+  text-decoration: none;
+}
+.address .map {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.address .link:hover,
+.address .link:focus {
+  color: var(--blue-color);
+}
+.address-list > li {
+  list-style: none;
+}
